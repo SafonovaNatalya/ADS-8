@@ -14,6 +14,7 @@
        Ncage->prev = first->prev;
        first->prev = Ncage;
        Ncage->prev->next = Ncage;
+  }
  }
  int Train::getLength() {
     Cage* helper = first;

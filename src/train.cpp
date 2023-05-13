@@ -33,7 +33,7 @@
                 helper = helper->prev;
                 countOp++;
             }
-            if (!temp->light) {
+            if (!helper->light) {
                 return kol;
             }
             kol = 1;
